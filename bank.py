@@ -16,7 +16,7 @@ class Bank():
         print("Bank Balance after depositing:",self.balance)
 
     def withdraw_money(self,amount):
-        if self.balance-amount>Bank.min_balance:
+        if self.balance>0 and self.Balance>=Bank.min_balance:
             self.balance-=amount
             print("withdrawed amount:",amount)
             print("Balance remaining:",self.balance)
