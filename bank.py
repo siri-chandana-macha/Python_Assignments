@@ -1,4 +1,4 @@
-class Bank():
+class Bank:
     bank_name="sbi"
     ifsc_code=12345
     manager="Bharath"
